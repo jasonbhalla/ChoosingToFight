@@ -3032,12 +3032,12 @@ textarea.form-control-lg {
 .btn-primary {
   color: #fff;
   background-color: #5465FF;
-  /*border-color: #5465FF;*/
+  border-color: #5465FF;
 }
 .btn-primary:hover {
   color: #fff;
   background-color: #2A2B2E;
-  /*border-color: #2A2B2E;*/
+  border-color: #2A2B2E;
 }
 .btn-important {
   color: #fff;
@@ -3051,22 +3051,22 @@ textarea.form-control-lg {
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
-  background-color: #232fcc;
-  border-color: #212cc0;
+  background-color: #6F59FF;
+  border-color: #6F59FF;
   box-shadow: 0 0 0 0.25rem rgba(73, 85, 242, 0.5);
 }
 .btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #212cc0;
-  border-color: #1f29b4;
+  background-color: #6F59FF;
+  border-color: #6F59FF;
 }
 .btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.25rem rgba(73, 85, 242, 0.5);
 }
 .btn-primary:disabled, .btn-primary.disabled {
   color: #fff;
-  background-color: #2937f0;
-  border-color: #2937f0;
+  background-color: #6E7FFF;
+  border-color: #6E7FFF;
 }
 
 .btn-secondary {
@@ -11314,7 +11314,7 @@ html {
 }
 
 .text-gradient {
-  background: -webkit-linear-gradient(#2937f0, #9f1ae2);
+  background: -webkit-linear-gradient(#5465FF, #6F59FF);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -11464,7 +11464,7 @@ section.cta:before {
   height: 1rem;
   width: 1rem;
   transform: rotate(10deg);
-  fill: #2937f0;
+  fill: #5465FF;
   top: 15%;
   right: 10%;
 }
@@ -11472,7 +11472,7 @@ section.cta:before {
   position: absolute;
   height: 0.75rem;
   width: 0.75rem;
-  fill: #2937f0;
+  fill: #5465FF;
   bottom: 15%;
   left: 10%;
 }
@@ -11576,7 +11576,7 @@ footer a:hover, footer a:active, footer a:focus {
   height: 1rem;
   width: 1rem;
   transform: rotate(-10deg);
-  fill: #2937f0;
+  fill: #5465FF;
   bottom: 15%;
   left: 10%;
 }
@@ -11584,7 +11584,7 @@ footer a:hover, footer a:active, footer a:focus {
   position: absolute;
   height: 0.75rem;
   width: 0.75rem;
-  fill: #2937f0;
+  fill: #5465FF;
   top: 15%;
   right: 10%;
 }
